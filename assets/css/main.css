@@ -1,0 +1,53 @@
+.contenedor{
+	width: 800px;
+	margin:0 auto;
+	display: block;
+}
+#seccionInicial .logo {
+	width: 60px;
+	height: 40px;
+}
+#seccionInicial .titulo {
+	color: #fcb425;
+	font-size: 3em;
+	text-align: center;
+}
+#seccionInicial p.descripcionEmpresa{
+	color: #lalala;
+	font-size: 1em;
+	font-family: "Arial", sans-serif;
+}
+
+#seccionContenido .contenedorTabs {
+	width: 100%;
+	color: white;
+	font-size: 1.5em;
+	border-bottom: #fcb425 solid 1px;
+
+}
+.contenedorTabs li {
+	list-style: none;
+	display: inline-block;
+}
+.tab {
+	color:white;
+	background-color: #fcb425;
+	border-radius: 5%;
+	border-bottom: none;
+	padding:10px;
+}
+
+.divImg, .divTexto{
+	display: inline-block;
+
+}
+.fotoComida{
+	width: 500px;
+	height: 400px;
+}
+
+.divTexto{
+	position: absolute;
+	padding-left: 36px;
+}
+.divTexto
