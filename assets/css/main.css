@@ -1,53 +1,98 @@
+.body{
+  margin:8px;
+}
+
 .contenedor{
-	width: 800px;
-	margin:0 auto;
-	display: block;
+  width: 800px;
+  margin:0 auto;
+  display: block;
 }
 #seccionInicial .logo {
-	width: 60px;
-	height: 40px;
+  width: 60px;
+  height: 40px;
 }
 #seccionInicial .titulo {
-	color: #fcb425;
-	font-size: 3em;
-	text-align: center;
+  color: #fcb425;
+  font-size: 3em;
+  text-align: center;
 }
 #seccionInicial p.descripcionEmpresa{
-	color: #lalala;
-	font-size: 1em;
-	font-family: "Arial", sans-serif;
+  color: #lalala;
+  font-size: 1em;
+  font-family: "Arial", sans-serif;
 }
 
 #seccionContenido .contenedorTabs {
-	width: 100%;
-	color: white;
-	font-size: 1.5em;
-	border-bottom: #fcb425 solid 1px;
+  width: 100%;
+  color: white;
+  font-size: 1.5em;
+  border-bottom: #fcb425 solid 1px;
 
 }
 .contenedorTabs li {
-	list-style: none;
-	display: inline-block;
+  list-style: none;
+  display: inline-block;
 }
 .tab {
-	color:white;
-	background-color: #fcb425;
-	border-radius: 5%;
-	border-bottom: none;
-	padding:10px;
+  color:white;
+  background-color: #fcb425;
+  border-radius: 5%;
+  border-bottom: none;
+  padding:10px;
 }
 
 .divImg, .divTexto{
-	display: inline-block;
-
+  display: inline-block;
 }
-.fotoComida{
-	width: 500px;
-	height: 400px;
+
+.divImg{
+  float:left;
 }
 
 .divTexto{
-	position: absolute;
-	padding-left: 36px;
+  float:right;
+  width: 400px;
 }
-.divTexto
+.fotoComida{
+  width: 500px;
+  height: 400px;
+  padding-bottom:10px;
+}
+
+.divTexto{
+  position: absolute;
+  padding-left: 36px;
+}
+
+.title{
+  color: #fcb425;
+  text-align: center;
+  font-size: 3em;
+}
+
+.logoimg {
+  width: 60px;
+  height: 40px;
+}
+
+.texto1{
+  width: 80%;
+  position: relative;
+  left: 5em;
+  font-family: "Arial", serif;
+}
+
+.contenedorTabs{
+  border-bottom: #fcb425 1px solid;
+}
+
+h3{
+  font-size: 40px;
+}
+
+.break{
+  padding-left:40px;
+  width: 500px;
+  height: 400px;
+  padding-bottom:10px;
+}
